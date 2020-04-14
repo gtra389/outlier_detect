@@ -1,6 +1,7 @@
+# coding: utf-8
 import requests
-# from urllib.request import urlopen
-from urllib import urlopen # on the rpi
+from urllib.request import urlopen
+# from urllib import urlopen # on the rpi
 from bs4 import BeautifulSoup
 import re
 import pandas as pd
